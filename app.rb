@@ -20,3 +20,6 @@ class App < Sinatra::Base
   # Code your final two routes here:
 
 end
+
+
+#Create a new route for /goodbye/:name that returns "goodbye",(person's name)""
