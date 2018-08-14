@@ -26,7 +26,13 @@ end
 
 #code your final two routes here 
 require_relative 'config/environment'
-
+class App<Sinatra::Base
+  
+  get'/goodbye/:name'do
+    puts params
+    @user_name=params[:name]
+"Goodbye, #{@user_name}"
+end 
 
 
 
