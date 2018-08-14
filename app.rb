@@ -25,6 +25,15 @@ end
 #Create a new route for /goodbye/:name that returns "goodbye,(person's name)"
 
 #code your final two routes here 
+ get "/hello/:name" do
+   puts params
+    @user_name = params[:name]
+    "Hello #{@user_name}!"
+  end
+
+
+
+
 require_relative 'config/environment'
 class App<Sinatra::Base
   
