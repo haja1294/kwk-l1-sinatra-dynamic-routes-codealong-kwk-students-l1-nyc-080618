@@ -1,3 +1,6 @@
+#user_name is our instance variabe 
+#Line 15 outputs the "hello"and the name that is inputed in the browser
+
 require_relative 'config/environment'
 
 class App < Sinatra::Base
