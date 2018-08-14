@@ -36,7 +36,7 @@ end
 
 require_relative 'config/environment'
 class App<Sinatra::Base
-  
+  erb : goodbye 
   get'/goodbye/:name'do
     puts params
     @user_name=params[:name]
