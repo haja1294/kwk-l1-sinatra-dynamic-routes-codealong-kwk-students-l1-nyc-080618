@@ -22,4 +22,4 @@ class App < Sinatra::Base
 end
 
 
-#Create a new route for /goodbye/:name that returns "goodbye",(person's name)""
+#Create a new route for /goodbye/:name that returns "goodbye",(person's name)"
